@@ -5,9 +5,9 @@
 #project link (https://thriving-pony-b3f639.netlify.app/)
 
 In the quiz page,
--white color box -: selected
--light gray box -: visited
--dark green box -: attempted
+-white color box -: selected <br>
+-light gray box -: visited  <br>
+-dark green box -: attempted  <br>
 
 ---
 
