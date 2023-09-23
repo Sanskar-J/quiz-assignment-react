@@ -9,7 +9,7 @@ const StartPage = ({ email, setEmail }) => {
         }}
         className="d-flex justify-content-center align-items-center"
       >
-        <div class="input-group input-group-lg w-50">
+        <div className="input-group input-group-lg w-50">
           <input
             id="email"
             type="text"
@@ -21,9 +21,9 @@ const StartPage = ({ email, setEmail }) => {
               setEmail(document.getElementById("email").value);
             }}
           />
-          <div class="input-group-append">
+          <div className="input-group-append">
             <button
-              class="btn btn-outline-primary btn-lg"
+              className="btn btn-outline-primary btn-lg"
               disabled={email.length == 0}
               type="button"
               onClick={() => {

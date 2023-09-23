@@ -1,4 +1,4 @@
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import { Link } from "react-router-dom";
 import Timer from "./Timer";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
@@ -19,7 +19,7 @@ const QuizPage = ({
 }) => {
   const [selected, setSelected] = useState(1);
   const [itemStyles, setItemStyles] = useState({});
-  const [visited,setVisited]=useState(new Array(15).fill(false))
+  const [visited, setVisited] = useState(new Array(15).fill(false));
 
   let index = 1;
 
@@ -29,14 +29,13 @@ const QuizPage = ({
 
   const next = () => {
     setSelected(selected + 1);
-    visited[selected-1]=true
-    setVisited(visited)
+    visited[selected - 1] = true;
+    setVisited(visited);
   };
   const prev = () => {
     setSelected(selected - 1);
-    visited[selected-1]=true
-    setVisited(visited)
-
+    visited[selected - 1] = true;
+    setVisited(visited);
   };
   return (
     <div className="container bg-dark text-light">
@@ -53,11 +52,14 @@ const QuizPage = ({
               <button
                 key={index}
                 id={selected - 1 === index ? "selected" : ""}
-                className={(visited[index]?"boxes vis":"boxes")+(answers[index]==="No Selection"?"":" attempt")}
+                className={
+                  (visited[index] ? "boxes vis" : "boxes") +
+                  (answers[index] === "No Selection" ? "" : " attempt")
+                }
                 onClick={() => {
-                  visited[selected-1]=true
+                  visited[selected - 1] = true;
                   setSelected(index);
-                  setVisited(visited)
+                  setVisited(visited);
 
                   // handleChoose(index);
                 }}

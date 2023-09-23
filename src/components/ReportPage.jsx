@@ -1,6 +1,6 @@
 const ReportPage = ({ email, setEmail, answers, data }) => {
-  console.log(data, answers);
-  let ind = 0;
+//   console.log(data, answers);
+//   let ind = 0;
   return (
     <div className="container bg-dark text-light">
       <div className="email p-3 m-3">
