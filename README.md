@@ -1,7 +1,8 @@
 # React + Vite
 
-**use npm install**(to install all dependencies)
-**npm run dev**(to start the project)
+# **use npm install**(to install all dependencies)
+# **npm run dev**(to start the project)
+#project link (https://thriving-pony-b3f639.netlify.app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
