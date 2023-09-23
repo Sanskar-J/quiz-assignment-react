@@ -9,6 +9,12 @@ In the quiz page,
 -light gray box -: visited  <br>
 -dark green box -: attempted  <br>
 
+This project contains 3 major components <br>
+StarPage.jsx <br>
+QuizPage.jsx <br>
+ReportPage.jsx <br>
+
+
 ---
 
 # Quiz Assignment - React
