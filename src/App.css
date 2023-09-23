@@ -1,0 +1,53 @@
+
+.App{
+  height: 100vh;
+}
+.questions{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 10px;
+}
+.quiz{
+  height: 500px;
+}
+#selected{
+  height: 50px;
+  width: 50px;
+  background-color: white;
+  color: black;
+  border: rgb(91, 76, 76) 5px solid;
+}
+.boxes{
+  padding: 10px;
+  margin: 20px;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+.vis{
+  background-color:rgb(85, 85, 85) ;
+}
+.attempt{
+  background-color: rgb(12, 62, 16);
+}
+.opt{
+  padding: 10px;
+  
+  margin: 10px;
+  border: 2px solid white;
+  cursor: pointer;
+}
+.opt:hover{
+  background-color: white;
+  color: black;
+}
+#select{
+  background-color: black;
+  padding: 20px;
+}
